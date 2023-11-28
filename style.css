@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 80%;
+}
+.clr{
+    clear: both;
+}
+                        /* style in header */
+.main{
+    background-image: url(./media/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: auto;
+    border-radius: 10px;
+}
+.content{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 110px;
+   margin-left: 120px;
+   font-size: 20px;
+   text-transform: capitalize;
+   text-decoration: solid;
+   
+
+}
+.content p{
+ padding-top: 10px;
+ padding-bottom: 12px;
+}
+.content h1{
+    color: darkgoldenrod;
+}
+.btn{
+    text-transform: capitalize;
+    text-decoration: solid;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.b1{
+   background-color: transparent;
+   color: white;
+}
+.b2{
+    background-color: black;
+    color: darkgoldenrod;
+}
+.list ul li a:hover{
+    background-color: black;
+    color: darkgoldenrod;
+    border-radius: 10px;
+}
+.list{
+    margin-left: 920px;
+    margin-top: 10px;
+}
+.list ul li{
+    float: left;
+    list-style: none;
+    padding-left: 60px;
+
+}
+.list ul li a{
+    text-transform: capitalize;
+    color: aliceblue;
+    float: left;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.5s;
+    
+    
+}
+
+
+
+
+                                    /* /* ending head * */
+
+
+                                    /* start second page */
+.hh{
+    text-align: center;
+    margin-top: 40px;
+    color: darkgoldenrod;
+    text-transform: capitalize;
+}
+.cards:hover{background-color: black;
+    
+
+}
+.card:hover{
+    background-color: darkgoldenrod;
+}
+.cards{
+    width:1000px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 60px;
+    background-color: rgb(236, 236, 243);
+    border-radius: 17px;
+    float: left;
+    transition: all0.4s;
+}
+.card{
+    width: calc(100%/3);
+    float:left;
+    padding:15px ;
+    border-radius: 12px;
+    cursor: pointer;
+}
+           /* end second page */
+
+           /* start icons section */
+.h2{
+    margin-top: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 30px;
+}
+.icons{
+    background-color: rgb(211, 203, 203);
+    float: left;
+padding-left: 30px;
+margin-left: 10px;
+height:90px;
+cursor: pointer;
+margin-left: 450px;
+margin-top: 50px;
+border-radius: 20px;
+}
+.icon{
+    float: left;
+    padding-left: 40px;
+margin-left: 20px;
+text-align: center;
+padding-top: 30px;
+padding-right: 10px;
+font-size: 20px;
+}
+.facebook{
+    color: rgb(19, 19, 223);
+}
+.wats{
+    color: rgb(42, 168, 42);
+}
+.twet{
+    color: rgb(68, 68, 235);
+    padding-right: 10px;
+}
